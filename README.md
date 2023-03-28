@@ -1,6 +1,13 @@
-# @peakon/mocha-split-tests
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeakon%2Fmocha-split-tests.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeakon%2Fmocha-split-tests?ref=badge_shield)
+# mocha-split-tests (fork of @peakon/mocha-split-tests)
 
+**Note**: On 28 March 2023, the public repo `@peakon/mocha-split-tests` disappeared and the npm listing returned 404. We use this dependency internally and so we're making it available for anyone else to use as is as well.
+
+### Usage: use this repo with your `package.json` directly
+```
+"@peakon/mocha-split-tests": staffany-eng/mocha-split-tests-fork#master"
+```
+
+-----
 
 A tool that helps optimizing overall test runtime for big test suites that can be distributed across multiple containers / VMs running in parallel.
 
@@ -97,16 +104,6 @@ function getSpecs(totalGroups, groupNumber) {
 }
 ```
 
-## Releasing new version
-
-```bash
-npm version <major | minor | patch>
-git push --tags
-```
-
 ## License
 
 MIT
-
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fpeakon%2Fmocha-split-tests.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fpeakon%2Fmocha-split-tests?ref=badge_large)
